@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@500&display=swap');
+
+
+body{
+    padding: 20px 30px 40px 40px;
+    text-align:center;
+    margin: auto;
+    margin-top: 150px;
+    background-color: #fffbdf;
+    background-image: url(https://images.reference.com/reference-production-images/question/aq/1400px-788px/36-degrees-celsius-fahrenheit_d006c208802c454e.jpg);
+  
+  }
+  span{
+    font-family: 'Fira Sans', sans-serif;
+    font-size: large;
+    margin: 5px;
+  }
+  input{
+    padding: 5px;
+    margin: 5px;
+  }
+  .container{
+      background-color: #f1f3de;
+      border-radius: 20px;
+      height: 400px;
+      width:500px;
+      display: flex;
+      flex-direction: column;
+      padding: 50px;
+      align-items: center;
+      margin: auto;
+  }
+  .btn {
+    background: #fd3a69;
+    background-image: -webkit-linear-gradient(top, #fd3a69, #);
+    background-image: -moz-linear-gradient(top, #fd3a69, #);
+    background-image: -ms-linear-gradient(top, #fd3a69, #);
+    background-image: -o-linear-gradient(top, #fd3a69, #);
+    background-image: linear-gradient(to bottom, #fd3a69, #);
+    -webkit-border-radius: 23;
+    -moz-border-radius: 23;
+    border-radius: 23px;
+    font-family: Georgia;
+    color: #000000;
+    font-size: 18px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #f875aa;
+    text-decoration: none;
+  }
